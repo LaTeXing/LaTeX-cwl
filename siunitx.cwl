@@ -16,6 +16,14 @@
 \SI{value}[pre-unit]{unit commands}
 \SI[options]{value}[pre-unit]{unit commands}
 
+\numlist[options]{numbers}
+\numrange[options]{numbers}{number2}
+
+\SIlist[options]{numbers}{unit}
+\SIrange[options]{number1}{number2}{unit}
+
+\tablenum[options]{number}
+
 # Powers of units
 \Square
 \ssquare
@@ -283,5 +291,5 @@
 \provideprefix[binary]{prefix}{symbol}{powers-ten}
 
 # Package options inside document
-\sisetup
+\sisetup{options}
 
