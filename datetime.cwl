@@ -1,15 +1,13 @@
-# datetime
-# Chris 20/3/2013
+# datetime.sty
+# Chris 21/03/2013
 
 # Time Commands
-
 \currenttime
 \formattime{hour}{minute}{second}
 \newtimeformat{name}{format}
 \timeseparator
 
 # Formating Dates
-
 \pdfdate
 \monthname[num]
 \shortmonthname[num]
@@ -21,11 +19,9 @@
 \twodigit{num}
 
 # Defining New Date Formats
-
 \newdateformat{name}{format}
 
 # Saving Dates
-
 \newdate{name}{day}{month}{year}
 \displaydate{name}
 
@@ -34,7 +30,6 @@
 \getdateyear{name}
 
 # Predefined Names
-
 \dateseparator
 \timeseparator
 \amname
@@ -51,5 +46,4 @@
 \oclockstring
 
 # Multilingual Support
-
 \setdefaultdate{declaration}
