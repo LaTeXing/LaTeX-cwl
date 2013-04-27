@@ -4,6 +4,7 @@
 \begin{longtable}{preamble}
 \caption*{text}
 \endfirstfoot
+\endlastfoot
 \endfirsthead
 \endfoot
 \endhead
