@@ -36,5 +36,3 @@
 \defcitealias{keylist}{alias}
 \citetalias{keylist}
 \citepalias{keylist}
-
-
