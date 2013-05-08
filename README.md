@@ -1,17 +1,22 @@
-# Install
+Usage
+-----
 
-LaTeX-cwl is a Sublime Text plugin and used by the LaTeX plugin [LaTeXing](http://www.latexing.com). The plugin supplied cwl files which are used for the autocompletion of LaTeX commands.
+LaTeX-cwl is a Sublime Text plugin and used by the LaTeX plugin [LaTeXing](http://www.latexing.com). The plugin supplies cwl files which are used for the autocompletion of LaTeX commands.
 
-## Package Control Installation
+![LaTeXing with LaTeX-cwl files](http://latexing.com/wp-content/uploads/github/latex-cwl.jpg)
 
-The plugin is already submitted to the [Package Control](http://wbond.net/sublime_packages/package_control) repository and should be included soon. Until then you can easily add a custom repository with the following address: `https://github.com/Chris---/LaTeX-cwl.git`.
+Installation
+------------
+### Not using Package Control:
+* Save files to the `Packages/LaTeX-cwl` directory, then relaunch Sublime:
+  * Linux: `~/.config/sublime-text-2/Packages/LaTeX-cwl`
+  * Mac: `~/Library/Application Support/Sublime Text 2/Packages/LaTeX-cwl`
+  * Windows: `%APPDATA%/Sublime Text 2/Packages/LaTeX-cwl`
 
-## Manual Installation
+### Using Package Control:
 
-### Mac OS
+**Wait for the repository to be included. Custom reository:** `https://github.com/Chris---/LaTeX-cwl.git`
 
-Open the Sublime Text package directory *(Sublime Text > Preferences > Browser Packages)* and download, unzip, and put the contents in the subdirectory `LaTeX-cwl`.
-
-### Windows
-
-Open the Sublime Text package directory *(Preferences > Browser Packages)* and download, unzip, and put the contents in the subdirectory `LaTeX-cwl`.
+* Bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows).
+* Select Package Control: Install Package.
+* Select LaTeX-cwl to install.
