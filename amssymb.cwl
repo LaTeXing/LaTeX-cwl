@@ -148,7 +148,7 @@
 \precneqq
 \precnsim
 \precsim
-psamsfonts
+\psamsfonts
 \rightarrowtail
 \rightleftarrows
 \rightrightarrows
