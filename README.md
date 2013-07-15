@@ -7,16 +7,16 @@ LaTeX-cwl is a Sublime Text plugin and used by the LaTeX plugin [LaTeXing](http:
 
 Installation
 ------------
-### Not using Package Control:
-* Save files to the `Packages/LaTeX-cwl` directory, then relaunch Sublime:
-  * Linux: `~/.config/sublime-text-2/Packages/LaTeX-cwl`
-  * Mac: `~/Library/Application Support/Sublime Text 2/Packages/LaTeX-cwl`
-  * Windows: `%APPDATA%/Sublime Text 2/Packages/LaTeX-cwl`
 
 ### Using Package Control:
-
-**Wait for the repository to be included. Custom reository:** `https://github.com/Chris---/LaTeX-cwl.git`
 
 * Bring up the Command Palette (Command+Shift+P on OS X, Control+Shift+P on Linux/Windows).
 * Select Package Control: Install Package.
 * Select LaTeX-cwl to install.
+
+### Not using Package Control:
+
+* Save files to the `Packages/LaTeX-cwl` directory, then relaunch Sublime:
+  * Linux: `~/.config/sublime-text-2|3/Packages/LaTeX-cwl`
+  * Mac: `~/Library/Application Support/Sublime Text 2|3/Packages/LaTeX-cwl`
+  * Windows: `%APPDATA%/Sublime Text 2|3/Packages/LaTeX-cwl`
