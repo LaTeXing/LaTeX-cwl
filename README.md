@@ -3,7 +3,7 @@ Usage
 
 LaTeX-cwl is a Sublime Text plugin and used by the LaTeX plugin [LaTeXing](http://www.latexing.com). The plugin supplies cwl files which are used for the autocompletion of LaTeX commands.
 
-![LaTeXing with LaTeX-cwl files](http://latexing.com/wp-content/uploads/github/latex-cwl.jpg)
+![LaTeXing with LaTeX-cwl files](http://github.latexing.com/latex_cwl.jpg)
 
 Installation
 ------------
