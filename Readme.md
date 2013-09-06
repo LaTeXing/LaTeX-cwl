@@ -20,3 +20,13 @@ Installation
   * Linux: `~/.config/sublime-text-2|3/Packages/LaTeX-cwl`
   * Mac: `~/Library/Application Support/Sublime Text 2|3/Packages/LaTeX-cwl`
   * Windows: `%APPDATA%/Sublime Text 2|3/Packages/LaTeX-cwl`
+
+
+## Donating
+
+Support this project via [gittip][] or [paypal][].
+
+[![Support via Gittip](https://rawgithub.com/chris---/Donation-Badges/master/gittip.jpeg)][gittip] [![Support via PayPal](https://rawgithub.com/chris---/Donation-Badges/master/paypal.jpeg)][paypal]
+
+[gittip]: https://www.gittip.com/Chris---
+[paypal]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZWZCJPFSZNXEW
