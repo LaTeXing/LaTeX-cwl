@@ -118,6 +118,7 @@
 
 # Prefixed and abbreviated units
 # Masses
+\gram
 \kilogram
 \kg
 \femtogram
