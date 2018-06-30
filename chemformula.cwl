@@ -350,7 +350,7 @@ lewis-offset={%<dim%>}
 #endkeyvals
 #
 #
-# Chapter 15. Kröger-Vink Notation
+# Chapter 15. Kroger-Vink Notation
 #
 #
 #keyvals:\ch
