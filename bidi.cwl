@@ -1,4 +1,4 @@
-# xepersian 21.2
+# bidi 33.0
 # hadi_sfr (info@hadisafari.ir)
 
 # some commands are not included
