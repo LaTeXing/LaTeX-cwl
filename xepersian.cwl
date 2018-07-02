@@ -59,7 +59,7 @@
 \twocolumnstableofcontents
 \XePersian
 \plq
-\pr
+\prq
 \Latincite
 \harfinumeral{integer}
 \adadinumeral{integer}
