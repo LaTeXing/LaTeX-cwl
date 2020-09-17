@@ -98,7 +98,8 @@
 \textelp{text}
 \textelp*{text}
 
-\textins{text} \textins*{text}
+\textins{text}
+\textins*{text}
 
 # Configuration
 
