@@ -5,6 +5,6 @@
 \floatstyle{defaultstyle}
 \floatname{type}{name}
 \floatplacement{type}{default placement specifier}
-\restylefloat{figure or table
-\listof{type}{ title}
+\restylefloat{figure or table}
+\listof{type}{title}
 
