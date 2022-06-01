@@ -3,6 +3,7 @@
 # dbitouze/2015-03-20 for siunitx v2.6e
 # thatlittleboy/2018-06-18
 # kiriya-aoi/2021-06-07 for siunitx v3.0
+# kiriya-aoi/2022-06-01 for siunitx v3.1
 
 \A#*
 \ampere
@@ -20,6 +21,7 @@
 \bel
 \bit
 \byte
+\C#*
 \candela
 \celsius
 \centi
@@ -55,6 +57,7 @@
 \femto
 \fF#*
 \fg#*
+\fH#*
 \fmol#*
 \fs#*
 \g#*
@@ -103,6 +106,7 @@
 \lux
 \m#*
 \mA#*
+\mC#*
 \mebi
 \mega
 \meter
@@ -135,6 +139,7 @@
 \N#*
 \nA#*
 \nano
+\nC#*
 \neper
 \newton
 \ng#*
@@ -149,6 +154,7 @@
 \numrange[%<options%>]{%<number1%>}{%<number2%>}
 \numrange{%<number1%>}{%<number2%>}
 \nV#*
+\nW#*
 \of
 \ohm
 \Pa#*
@@ -160,6 +166,7 @@
 \peta
 \pF#*
 \pg#*
+\pH#*
 \pico
 \pm#*
 \pmol#*
@@ -237,6 +244,8 @@ reset-text-shape#true,false
 text-family-to-math#true,false
 text-font-command=
 text-series-to-math#true,false
+text-subscript-command=
+text-superscript-command=
 unit-color=
 unit-mode=#match,math,text
 #endkeyvals
@@ -254,7 +263,9 @@ input-open-uncertainty=
 input-signs=
 input-uncertainty-signs=
 parse-numbers#true,false
+retain-explicit-decimal-marker#true,false
 retain-explicit-plus#true,false
+retain-negative-zero#true,false
 retain-zero-uncertainty#true,false
 #endkeyvals
 ## Post-processing numbers ; section 4.4
@@ -271,10 +282,14 @@ round-minimum=
 round-mode=#none,figures,places,uncertainty
 round-pad#true,false
 round-precision=
+round-zero-positive#true,false
 #endkeyvals
 ## Printing numbers ; section 4.5
 #keyvals:\sisetup,\ang,\complexnum,\complexqty,\num,\numlist,\numrange,\numproduct,\SI,\SIlist,\SIrange,\qty,\qtylist,\qtyproduct,\qtyrange
 bracket-negative-numbers#true,false
+digit-group-size=
+digit-group-first-size=
+digit-group-other-size=
 exponent-base=
 exponent-product=
 group-digits=#all,decimal,integer,none
@@ -287,10 +302,16 @@ output-exponent-marker=
 output-open-uncertainty=
 print-implicit-plus#true,false
 print-unity-mantissa#true,false
+print-zero-integer#true,false
 print-zero-exponent#true,false
 tight-spacing#true,false
+uncertainty-descriptors=
+uncertainty-descriptor-mode=#bracket,bracket-separator,separator,subscript
+uncertainty-descriptor-separator
 uncertainty-mode=#compact,compact-marker,full,separate
 uncertainty-separator=
+zero-decimal-as-symbol#true,false
+zero-symbol=
 #endkeyvals
 ## Lists, products, and ranges ; section 4.6
 #keyvals:\sisetup,\numlist,\SIlist,\qtylist
@@ -320,7 +341,11 @@ range-units=#bracket,repeat,symbol
 #endkeyvals
 ## Complex numbers ; section 4.7
 #keyvals:\sisetup,\complexnum,\complexqty
+complex-angle-unit=#degrees,radians
+complex-mode=#input,cartesian,polar
 complex-root-position=#after-number,before-number
+complex-symbol-angle=
+complex-symbol-degree=
 input-complex-root=#i,j
 output-complex-root=
 #endkeyvals
@@ -348,11 +373,15 @@ use-xspace#true,false
 ## Using units ; section 4.10
 #keyvals:\sisetup,\complexqty,\SI,\si,\SIlist,\SIrange,\qty,\qtylist,\qtyrange,\qtyproduct,\unit
 bracket-unit-denominator#true,false
+display-per-mode=#fraction,power,power-positive-first,symbol,repeated-symbol,single-symbol
 forbid-literal-units#true,false
+inline-per-mode=#fraction,power,power-positive-first,symbol,symbol-or-fraction,repeated-symbol
 inter-unit-product=
 parse-units#true,false
 per-mode=#fraction,power,power-positive-first,symbol,symbol-or-fraction,repeated-symbol
 per-symbol=
+per-symbol-script-correction=
+power-half-as-sqrt#true,false
 qualifier-mode=#bracket,combine,phrase,subscript
 qualifier-phrase=
 sticky-per#true,false
